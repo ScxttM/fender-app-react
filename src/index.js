@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "react-toastify/dist/ReactToastify.min.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
