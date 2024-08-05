@@ -44,9 +44,8 @@ function Versus() {
             {character && <CardRickAndMorty character={character} />}
           </Col>
           <Col md={4}>
-            <h2>VS</h2>
             <Button variant="primary" onClick={() => getRandom()}>
-              Random
+              Randomize
             </Button>
           </Col>
           <Col md={4}>
