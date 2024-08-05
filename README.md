@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Fender App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has been developed as the frontend of the Fender API project, built using React. It demonstrates my skills as a Full Stack Developer for the Backend Developer position at Fender.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Fender App is a React-based frontend application designed to interact with the Fender API. It provides a user-friendly interface to manage various functionalities of the API.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow these steps to install and run the project:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine.
+    ```bash
+    git clone https://github.com/your_username/fender-app.git
+    ```
+2. Navigate to the project directory.
+    ```bash
+    cd fender-app
+    ```
+3. Install the necessary dependencies.
+    ```bash
+    npm install
+    ```
+4. Start the application.
+    ```bash
+    npm start
+    ```
 
-### `npm test`
+## Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project uses the following dependencies:
 
-### `npm run build`
+- **@testing-library/jest-dom**: ^5.17.0
+- **@testing-library/react**: ^13.4.0
+- **@testing-library/user-event**: ^13.5.0
+- **axios**: ^1.7.3
+- **bootstrap**: ^5.3.3
+- **react**: ^18.3.1
+- **react-bootstrap**: ^2.10.4
+- **react-dom**: ^18.3.1
+- **react-icons**: ^5.2.1
+- **react-lazy-load-image-component**: ^1.6.2
+- **react-router-bootstrap**: ^0.26.3
+- **react-router-dom**: ^6.26.0
+- **react-scripts**: 5.0.1
+- **react-select**: ^5.8.0
+- **react-toastify**: ^10.0.5
+- **web-vitals**: ^2.1.4
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Environment Variables
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The following environment variables are required to run the project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `NODE_ENV`: The environment in which the application is running (e.g., development, production).
+- `REACT_APP_API_URL`: The URL of the Fender API.
 
-### `npm run eject`
+Create a `.env` file in the root directory of the project and add the following lines with your specific values:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```plaintext
+NODE_ENV=your_environment
+REACT_APP_API_URL=your_api_url
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+After following the installation steps, the application will be running, and you can interact with the Fender API through the provided user interface. Make sure to configure the necessary environment variables as shown above.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or need more information, feel free to contact me.
