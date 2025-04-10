@@ -12,7 +12,7 @@ Follow these steps to install and run the project:
 
 1. Clone the repository to your local machine.
     ```bash
-    git clone https://github.com/your_username/fender-app.git
+    git clone https://github.com/ScxttM/fender-app-react.git
     ```
 2. Navigate to the project directory.
     ```bash
